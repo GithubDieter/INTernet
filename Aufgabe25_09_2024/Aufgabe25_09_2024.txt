@@ -1,0 +1,11 @@
+﻿1. Bauen Sie folgende HTML-Seite nach: 
+
+ 
+
+2. Fügen Sie ein „Kapitel 6: Image-Mapping“ ein und verlinken Sie dieses mit der 
+Navigationsleiste.  
+
+a. Hier soll das Bild „image_mapping.png“ angezeigt werden. 
+b. Bei einem Klick auf einen der vier Bereiche soll das, dazu passende, Bild 
+
+einzeln aufgerufen werden.
