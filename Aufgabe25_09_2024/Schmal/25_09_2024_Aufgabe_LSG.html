@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Formatierungsübungen</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Einführung in HTML</h1>
+        <nav>
+            <a href="#kapitel1">Kapitel 1: Was ist HTML?</a> |
+            <a href="#kapitel2">Kapitel 2: Grundlegende HTML-Elemente</a> |
+            <a href="#kapitel3">Kapitel 3: Textformatierung in HTML</a> |
+            <a href="#kapitel4">Kapitel 4: Links und Anker</a> |
+            <a href="#kapitel5">Kapitel 5: Listen und Tabellen</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Kapitel 1 -->
+        <section id="kapitel1">
+            <h2>Kapitel 1: Was ist HTML?</h2>
+            <p class="groß">
+                HTML, die Abkürzung für <strong>Hypertext Markup Language</strong>, ist die Standardauszeichnungssprache, die verwendet wird, um Dokumente zu erstellen, die im Web angezeigt werden. <br>Es ermöglicht den Aufbau von strukturierten Webinhalten durch den Einsatz von <em>Elementen</em> und <em>Tags</em>. Diese Seite gibt dir einen Überblick über die grundlegenden Elemente und wie man mit HTML-Text formatieren kann.
+            </p>
+            <p>Weiter zu <a href="#kapitel2">Kapitel 2: Grundlegende HTML-Elemente</a>.</p>
+        </section>
+
+        <!-- Kapitel 2 -->
+        <section id="kapitel2">
+            <h2>Kapitel 2: Grundlegende HTML-Elemente</h2>
+            <p>
+                Ein typisches HTML-Dokument besteht aus verschiedenen Teilen. Die wichtigsten sind:
+            </p>
+            <ul>
+                <li><strong>&lt;html&gt;</strong>: Das Wurzelelement des Dokuments, das den gesamten HTML-Inhalt umschließt.</li>
+                <li><strong>&lt;head&gt;</strong>: Enthält Meta-Informationen über die Seite wie den Titel und Verknüpfungen zu CSS-Dateien.</li>
+                <li><strong>&lt;body&gt;</strong>: Beinhaltet den eigentlichen Inhalt der Webseite, der dem Benutzer angezeigt wird.</li>
+            </ul>
+            <p>Springe zu <a href="#kapitel3">Kapitel 3: Textformatierung in HTML</a>.</p>
+        </section>
+
+        <!-- Kapitel 3 -->
+        <section id="kapitel3">
+            <h2>Kapitel 3: Textformatierung in HTML</h2>
+            <p>
+                HTML bietet zahlreiche Möglichkeiten, Text auf einer Webseite zu formatieren. Hier sind einige Beispiele:
+            </p>
+            <ul>
+                <li><strong>Fettgedruckter Text</strong> wird mit dem Tag <code>&lt;strong&gt;</code> oder <code>&lt;b&gt;</code> erstellt.</li>
+                <li><em>Kursiver Text</em> wird mit dem Tag <code>&lt;em&gt;</code> oder <code>&lt;i&gt;</code> formatiert.</li>
+                <li>Für <mark>hervorgehobenen Text</mark> verwendet man das <code>&lt;mark&gt;</code>-Tag.</li>
+                <li>Text, der durchgestrichen ist, verwendet das <code>&lt;del&gt;</code>-Tag: <del>Beispiel durchgestrichen</del>.</li>
+                <li>Unterstrichener Text wird mit dem Tag <code>&lt;u&gt;</code> erstellt: <u>unterstrichener Text</u>.</li>
+            </ul>
+            <p>Zum nächsten Thema: <a href="#kapitel4">Kapitel 4: Links und Anker</a>.</p>
+        </section>
+
+        <!-- Kapitel 4 -->
+        <section id="kapitel4">
+            <h2>Kapitel 4: Links und Anker</h2>
+            <p>
+                HTML-Links ermöglichen es, zwischen verschiedenen Seiten zu navigieren oder zu einer bestimmten Stelle auf der gleichen Seite zu springen. <br>Ein Link wird mit dem <code>&lt;a&gt;</code>-Tag erstellt. Hier ein paar Beispiele:
+            </p>
+            <ul>
+                <li>Ein normaler Link zu einer externen Seite könnte so aussehen: <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>.</li>
+                <li>Ein Link zu einem anderen Abschnitt auf derselben Seite, auch als "Anker" bekannt, kann so erstellt werden: <a href="#kapitel5">Kapitel 5: Listen und Tabellen</a>.</li>
+            </ul>
+            <p>Gehe weiter zu <a href="#kapitel5">Kapitel 5: Listen und Tabellen</a>.</p>
+        </section>
+
+        <!-- Kapitel 5 -->
+        <section id="kapitel5">
+            <h2>Kapitel 5: Listen und Tabellen</h2>
+            <p>
+                Listen und Tabellen sind nützliche Elemente, um Daten auf strukturierte Weise anzuzeigen. Es gibt zwei Hauptarten von Listen:
+            </p>
+            <ul>
+                <li><strong>Ungeordnete Listen</strong> (unordered lists) verwenden das <code>&lt;ul&gt;</code>-Tag. Sie sind ideal für Aufzählungen.</li>
+                <li><strong>Geordnete Listen</strong> (ordered lists) verwenden das <code>&lt;ol&gt;</code>-Tag und werden nummeriert.</li>
+            </ul>
+            <p>
+                Ein Beispiel für eine ungeordnete Liste:
+            </p>
+            <ul>
+                <li>Erster Punkt</li>
+                <li>Zweiter Punkt</li>
+                <li>Dritter Punkt</li>
+            </ul>
+            <p>
+                Ein Beispiel für eine geordnete Liste:
+            </p>
+            <ol>
+                <li>Erster Schritt</li>
+                <li>Zweiter Schritt</li>
+                <li>Dritter Schritt</li>
+            </ol>
+            <p>Tabellen in HTML werden mit dem <code>&lt;table&gt;</code>-Tag erstellt. Hier ist ein Beispiel für eine einfache Tabelle:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Alter</th>
+                        <th>Beruf</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Anna</td>
+                        <td>28</td>
+                        <td>Webentwicklerin</td>
+                    </tr>
+                    <tr>
+                        <td>Ben</td>
+                        <td>35</td>
+                        <td>Designer</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 HTML-Übungsseite</p>
+        <p><a href="#kapitel1">Zurück zum Anfang</a></p>
+    </footer>
+
+</body>
+</html>

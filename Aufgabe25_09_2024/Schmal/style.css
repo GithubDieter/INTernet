@@ -1,0 +1,37 @@
+/*
+    Komentar
+*/
+
+/*CSS-Regel
+Selektor (h1, p, bzw. HTML-Element)
+{
+    Deklarationsblock
+    Eigenschaft : Wert;
+}
+*/
+h2{
+    color : rgb(237, 220, 173);
+    background-color : black;
+}
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+h1{
+    /* 
+    marin (top, right, bottom, left) => Abstand zu der Umgebung 
+    padding (s.o) => Der innere Abstand zu seinem Rand
+    */
+    text-align: center;
+}
+table, td{
+    border: solid black 2px;
+    border-collapse: collapse;
+}
+.groß{
+    font-size: x-large;
+}
+#kapitel3{
+    background-color: rgb(230, 44, 152);
+
+}
