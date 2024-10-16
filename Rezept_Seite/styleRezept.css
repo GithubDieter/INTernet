@@ -1,0 +1,12 @@
+td{
+    background-color: aqua;
+    text-align: center;  
+    transition: background-color 3s ease;  
+    transition: border-radius 1s ease-in;  
+    transition: border-radius 3s ease-out; 
+}
+td:hover{
+    transform: scale(0.8);
+    background-color: rgb(1, 153, 153);
+    border-radius: 100%;
+}
