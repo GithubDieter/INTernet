@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular Beispiel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Formular mit Eingabe- und Auswahlboxen</h1>
+    <form>
+        <div class="form-group">
+            <label for="Anrede">Anrede:</label>
+            <select id="Anrede" name="Anrede">
+                <option value="m">Herr</option>
+                <option value="w">Frau</option>
+                
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="Vorname">Vorname:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="Nachname">Nachname:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="alter">Alter:</label>
+            <input type="number" id="alter" name="alter" required>
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="interessen">Interessen:</label>
+            <select id="interessen" name="interessen" multiple>
+                <option value="sport">Sport</option>
+                <option value="musik">Musik</option>
+                <option value="lesen">Lesen</option>
+                <option value="reisen">Reisen</option>
+            </select>
+        </div>
+
+        <button type="submit">Absenden</button>
+    </form>
+
+</body>
+</html>
