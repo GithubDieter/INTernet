@@ -1,0 +1,37 @@
+/*
+    Kommentar
+*/
+/*CSS-Regel
+Selektor (h1, p, bzw. HTML-Element) 
+{
+    Deklarationsblock
+    Eigenschaft : Wert; 
+}
+*/
+h2{
+    color:rgb(255, 220, 173);
+    background-color: black;
+}
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:larger;
+}
+h1{
+    /*
+    margin (top,right,bottom,left)=> Abstand zu der Umgebung
+    padding (s.o) => Der innere Abstand zu seinem Rand 
+    */ 
+    text-align: center;   
+}
+table,td{ /* Man kann auch mehrere Elemente gleichzeitig auswählen */
+    border: solid black 2px;
+    border-collapse: collapse;        
+}
+.groß{ /* Selektieren einer Klasse*/ 
+    font-size: x-large;
+}
+#kapitel2{ /* Selektieren einer ID */
+    background-color: rgba(174, 174, 255, 0.648);
+}
+
+

@@ -4,18 +4,61 @@
         <meta charset="utf-8">
         <title>Meine_Rezepte</title>
         <link rel="stylesheet" href="styleRezept.css">
-
+            <Style>
+            .box{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            }
+            #superbox
+            {
+                background-color: red;
+                transition: transform 0,5s ease;
+            }
+            #superbox:hover
+            {
+                transform: scale(1.5);
+            }
+            </Style>
     </head>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="tabelle_Rezepte.html">zur_Tabelle</a> </li>
+                <li><a href="bilder_Rezepte.html">zu_den_Bildern</a> </li>
+               
+            </ul>
+        </nav>
+    </header>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="tabelle_Rezepte.html">zur_Tabelle</a> </li>
-                    <li><a href="bilder_Rezepte.html">zu_den_Bildern</a> </li>
-                   
-                </ul>
-            </nav>
-        </header>
+        <h1 style="background-color: aqua;">das ist die überschrift</h1>
+        <div class="box">a</div>
+        <div class="eltern">
+            <div class="kind">b</div>
+            <div class="kind">s
+                <div class="enkel">a</div>
+            </div>
+        </div>
+        <p class="box">Das ist ein Test</p>
+        <p class="box"id ="superbox">Das ist die Superbox</p>
+
+        <form action="Rezept-Seite-home.html">
+            <label for="Vorname">Vorname</label>
+            <input type="text" name="Vorname" value="">
+            <br>
+            <label for="Nachname">Nachname</label>
+            <input type="text" name="Nachname" placeholder="Mustermann" value="">
+            <br>
+            <label for="Passwort">Passwort</label>
+            <input type="password" name="Passwort" value="">
+            <br>
+            <input type="date" name="Datum" value>
+            <label for="Vorname">Vorname</label>
+            <input type="submit" value="">
+
+            <input
+        </form>
+
         <table rules="all" frame="box">
             <tr>
                 <td><h1>Klicken Sie auf Ihren Rezeptwunsch</h1></td>
